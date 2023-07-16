@@ -7,7 +7,7 @@ use Telegram\Bot\Objects\Message;
 use GuzzleHttp\Client;
 
 // Создаем экземпляр бота
-$telegram = new Api('6294740021:AAHMXWCTbj8BDDPJftJUQI3FBkNo-ke87LM');
+$telegram = new Api('#');
 
 // Извлекаем обновления из Telegram
 $updates = $telegram->getWebhookUpdates();
